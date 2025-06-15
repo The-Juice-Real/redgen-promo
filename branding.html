@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedGen | Brand Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        /*
+        RedGen: Tactile Minimalism Edition CSS
+        Methodology: Clean, light UI with high-contrast action colors and satisfying micro-interactions.
+        The design feels responsive, professional, and quietly confident.
+        */
+        :root {
+            --rg-red: #C1121F;
+            --rg-slate: #334155;
+            --rg-charcoal: #0F172A;
+            --rg-cloud: #F8FAFC; 
+            --rg-mid-slate: #64748B;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--rg-cloud);
+            color: var(--rg-charcoal);
+        }
+        
+        .tactile-card {
+            background-color: #ffffff;
+            border-radius: 0.75rem;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .tactile-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+
+       .brand-guide-section > h2 {
+            border-bottom: 3px solid var(--rg-slate);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+       }
+       .brand-red { color: var(--rg-red); }
+       .brand-slate { color: var(--rg-slate); }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto px-4 py-12 md:py-20 max-w-5xl">
+
+        <header class="text-center mb-20 pb-8">
+            <div class="flex items-center justify-center space-x-4 mb-4">
+                <div class="flex items-end justify-center w-16 h-16 space-x-1.5">
+                   <div class="w-4 h-8 bg-slate-300 rounded-t-md"></div>
+                   <div class="w-4 h-16 rounded-t-md" style="background-color: var(--rg-red);"></div>
+                   <div class="w-4 h-12 bg-slate-300 rounded-t-md"></div>
+                </div>
+                <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight">
+                    <span class="brand-red">Red</span>Gen
+                </h1>
+            </div>
+            <p class="mt-2 text-xl" style="color: var(--rg-mid-slate)">The Definitive Brand Guide</p>
+        </header>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 brand-slate">Core Identity: Our DNA</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="tactile-card">
+                    <h3 class="font-bold text-lg mb-2">Our Mission (The Why)</h3>
+                    <p style="color: var(--rg-mid-slate)">To transform cold outreach from a numbers game into a science, by delivering high-intent leads and the intelligence to engage them effectively.</p>
+                </div>
+                <div class="tactile-card">
+                    <h3 class="font-bold text-lg mb-2">Our Promise (The How)</h3>
+                    <p style="color: var(--rg-mid-slate)">We deliver a complete intelligence dossier on every lead: their exact problem, authority level, and a precise engagement playbook.</p>
+                </div>
+                <div class="tactile-card col-span-1 md:col-span-2">
+                    <h3 class="font-bold text-lg mb-2">The Enemy (Who We Fight)</h3>
+                    <p style="color: var(--rg-mid-slate)">Guesswork. Spam. Wasted sales cycles. Generic outreach. Anything that makes B2B prospecting inefficient and ineffective.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 brand-slate">Visual Identity: Our Look</h2>
+            <div class="space-y-12">
+                <div>
+                    <h3 class="font-bold text-xl mb-4">Color Palette</h3>
+                    <div class="tactile-card p-6">
+                        <p class="text-center mb-6 max-w-2xl mx-auto" style="color: var(--rg-mid-slate)">Our palette is a strategic choice for differentiation and psychological impact. It combines the authority of a professional palette with the urgency of a single, high-contrast action color.</p>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <div class="text-center">
+                                <div class="w-full h-24 rounded-lg shadow-inner" style="background-color: var(--rg-red);"></div>
+                                <p class="mt-2 font-semibold">Urgent Red</p>
+                                <p class="text-sm" style="color: var(--rg-mid-slate)">#C1121F (Action)</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="w-full h-24 rounded-lg shadow-inner" style="background-color: var(--rg-slate);"></div>
+                                <p class="mt-2 font-semibold">Slate</p>
+                                <p class="text-sm" style="color: var(--rg-mid-slate)">#334155 (Core)</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="w-full h-24 rounded-lg shadow-inner" style="background-color: var(--rg-charcoal);"></div>
+                                <p class="mt-2 font-semibold">Charcoal</p>
+                                <p class="text-sm" style="color: var(--rg-mid-slate)">#0F172A (Text)</p>
+                            </div>
+                             <div class="text-center">
+                                <div class="w-full h-24 rounded-lg shadow-inner border border-slate-200" style="background-color: var(--rg-cloud);"></div>
+                                <p class="mt-2 font-semibold">Cloud</p>
+                                <p class="text-sm" style="color: var(--rg-mid-slate)">#F8FAFC (BG)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-xl mb-4">Typography</h3>
+                    <div class="tactile-card p-8">
+                        <p class="text-sm" style="color: var(--rg-mid-slate); margin-bottom: 0.25rem;">Headline Font: Inter Extra-Bold</p>
+                        <p class="text-5xl font-extrabold mb-8">The Quick Brown <span class="brand-red">Fox</span></p>
+                        <p class="text-sm" style="color: var(--rg-mid-slate); margin-bottom: 0.25rem;">Body Font: Inter Regular</p>
+                        <p class="text-lg">The quick brown fox jumps over the lazy dog. This is the font used for all paragraph text. It's <span class="font-semibold brand-slate">clean</span>, <span class="font-semibold brand-slate">modern</span>, and <span class="font-semibold brand-slate">highly legible</span>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 brand-slate">Personality & Voice: Our Sound</h2>
+            <div class="tactile-card p-8">
+                <p class="text-center mb-6" style="color: var(--rg-mid-slate);"><span class="font-bold" style="color: var(--rg-charcoal);">Our Archetype:</span> The <span class="brand-slate font-semibold">Sage</span>.<br>We are the trusted source of indispensable intelligence.</p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-green-50 border border-green-200 p-6 rounded-lg">
+                        <h4 class="text-lg font-bold text-green-800 mb-2">DO: Be Authoritative & Precise</h4>
+                        <ul class="list-disc list-inside text-green-700 space-y-2">
+                            <li>"Find the signal in the noise."</li>
+                            <li>"Data-driven sales intelligence."</li>
+                            <li>"The end of the cold call."</li>
+                        </ul>
+                    </div>
+                    <div class="bg-red-50 border border-red-200 p-6 rounded-lg">
+                        <h4 class="text-lg font-bold text-red-800 mb-2">DON'T: Be Quirky or Vague</h4>
+                        <ul class="list-disc list-inside text-red-700 space-y-2">
+                            <li>"Let's get this bread."</li>
+                            <li>"We think we can help you find customers."</li>
+                            <li>"Your one-stop shop for awesome leads."</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-3xl font-bold mb-8 brand-slate">Messaging: Our Story</h2>
+            <div class="space-y-8">
+                 <div>
+                    <h3 class="font-bold text-xl mb-3">Key Slogans</h3>
+                    <div class="tactile-card p-6 space-y-2">
+                        <p class="text-lg font-semibold"><span class="brand-red font-bold">Primary:</span> RedGen: The Revenue Signal.</p>
+                        <p class="text-lg font-semibold" style="color: var(--rg-mid-slate);"><span class="brand-red font-bold">Secondary:</span> Find them before they're looking.</p>
+                        <p class="text-lg font-semibold" style="color: var(--rg-mid-slate);"><span class="brand-red font-bold">Descriptive:</span> Intelligent B2B Prospecting.</p>
+                    </div>
+                </div>
+                 <div>
+                    <h3 class="font-bold text-xl mb-3">Elevator Pitch</h3>
+                    <div class="tactile-card p-6 border-l-4" style="border-color: var(--rg-slate);">
+                        <p class="leading-relaxed">"Your ideal customers are publicly discussing their business problems online right now. RedGen is an intelligence platform that systematically finds and analyzes these conversations. We identify prospects with genuine commercial intent and provide your sales team with a complete dossier and engagement playbook for each one. It's the end of guesswork and the beginning of data-driven prospecting."</p>
+                    </div>
+                </div>
+                 <div>
+                    <h3 class="font-bold text-xl mb-3">Example Social Post (LinkedIn)</h3>
+                    <div class="tactile-card p-6">
+                        <blockquote class="border-l-4 pl-4 italic" style="border-color: var(--rg-red); color: var(--rg-mid-slate);">
+                            Your team is measured on pipeline. But how much of that pipeline is built on guesswork?
+                            <br><br>
+                            Right now, a Head of Engineering is asking on Reddit which security compliance tool integrates best with their tech stack. That's not a cold lead. That's a revenue signal.
+                            <br><br>
+                            Are you equipped to find it?
+                            <br><br>
+                            <span class="not-italic font-bold" style="color: var(--rg-charcoal);">RedGen. The Revenue Signal.</span> <span class="not-italic font-bold brand-red">#B2Bsales #LeadGeneration</span>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
